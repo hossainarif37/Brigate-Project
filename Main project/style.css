@@ -1,0 +1,1439 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Oswald, sans-serif;
+    font-weight: 500;
+}
+
+section {
+    padding: 90px 0px;
+}
+
+/* .fa-angle-down {
+    font-size: 20px;
+    vertical-align: middle;
+} */
+
+i.fal.fa-plus {
+    font-size: 11px;
+    margin-left: -3px;
+}
+
+i.fal.fa-minus {
+    font-size: 11px;
+    margin-left: -3px;
+}
+
+header#topbar {
+    overflow: hidden;
+}
+
+.topbarMain {
+    background: rgb(246, 246, 246);
+}
+
+.topbarWrapper {
+    overflow: hidden;
+}
+
+.container {
+    width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+
+.phone {
+    width: 200px;
+    float: left;
+    padding: 15px 10px;
+    border-right: 1px solid rgb(207, 202, 202);
+    border-left: 1px solid rgb(207, 202, 202);
+}
+
+.email {
+    width: 591px;
+    float: left;
+    padding: 15px 10px;
+}
+
+.social {
+    width: 140px;
+    float: right;
+}
+
+.social a {
+    display: block;
+    float: left;
+    padding: 15px 15px;
+    border-right: 1px solid rgb(207, 202, 202);
+    color: rgb(43, 43, 43);
+}
+
+.social a:hover i {
+    color: rgb(255, 108, 0);
+    transition: all 0.3s ease 0s;
+}
+
+.social a:first-child {
+    border-left: 1px solid rgb(207, 202, 202);
+}
+
+.phone i {
+    color: rgb(255, 108, 0);
+}
+
+.email i {
+    color: rgb(255, 108, 0);
+}
+
+.brigateLogo {
+    width: 290px;
+    float: left;
+    padding: 26px 0px;
+}
+
+.brigateLogo h2 {
+    font-family: Acme, sans-serif;
+    font-weight: 900;
+    width: 288px;
+}
+
+.brigateLogo span {
+    color: rgb(255, 108, 0);
+}
+
+#primaryMenu {
+    overflow: hidden;
+}
+
+.primaryWrapper {
+    overflow: hidden;
+}
+
+.menu {
+    width: 850px;
+    float: right;
+}
+
+.mainMenuItem {
+    list-style: none;
+    float: right;
+    letter-spacing: 2px;
+}
+
+ul.mainMenuItem li {
+    float: left;
+}
+
+ul.mainMenuItem li a {
+    text-decoration: none;
+    display: block;
+    padding: 37px 9px;
+    font-family: 'Acme';
+    font-size: 16px;
+    color: black;
+    position: relative;
+}
+
+ul.mainMenuItem li a:hover {
+    color: rgb(255, 108, 0);
+    transition: all 0.3s ease 0s;
+}
+
+ul.mainMenuItem li a:hover .fa-plus {
+    display: none;
+}
+
+ul.mainMenuItem li a .fa-minus {
+    display: none;
+}
+
+ul.mainMenuItem li a:hover .fa-minus {
+    display: inline-block;
+}
+
+ul.mainMenuItem li#searchBtn a i {
+    font-size: 17px;
+}
+
+#linkHome {
+    color: rgb(255, 108, 0);
+}
+
+#homeSlider {
+    background: url("mainImages/sliderImage-1.jpg") center center / cover no-repeat;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.sliderContent {
+    color: white;
+    width: 528px;
+}
+
+.sliderContent h1 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 150px;
+    float: left;
+}
+
+.sliderContent p {
+    font-weight: 500;
+    line-height: 30px;
+    width: 449px;
+    margin-bottom: 30px;
+}
+
+#sliderWorkBtn {
+    background: rgb(255, 82, 0);
+    color: white;
+    padding: 14px 25px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 46px;
+    font-family: oswald;
+    border-radius: 5px;
+}
+
+#sliderWorkBtn:hover {
+    background: rgb(41, 41, 41);
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+}
+
+.sliderNav {
+    width: 58px;
+    margin: auto;
+    padding: 40px 0px;
+}
+
+.sliderNav span {
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 3px solid rgb(221, 221, 221);
+    display: block;
+    border-radius: 100%;
+    cursor: pointer;
+    float: left;
+    margin: 5px;
+}
+
+.sliderNav span:first-child {
+    background: rgb(255, 82, 0);
+    border-color: rgb(255, 82, 0);
+}
+
+#services {
+    background: rgb(246, 246, 246);
+}
+
+.sboxwrapper {
+    overflow: hidden;
+}
+
+.singleBox {
+    width: 223px;
+    padding: 15px;
+    background: white;
+    float: left;
+    margin-right: 30px;
+    transition: all 0.5s ease 0s;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 5px;
+}
+
+.Active {
+    background: rgb(255, 82, 0);
+    color: white !important;
+}
+
+.Active h2 {
+    color: white !important;
+}
+
+.Active a {
+    color: white !important;
+}
+
+.Active a i {
+    color: white !important;
+}
+
+.sboxTitle {
+    text-align: center;
+    width: 230px;
+    margin: auto;
+}
+
+#services h2 {
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: rgb(51, 51, 51);
+    margin: 25px 0px;
+    transition: all 0.5s ease 0s;
+}
+
+.sboxIcon {
+    text-align: center;
+    font-size: 45px;
+    color: rgb(255, 82, 0);
+    margin: 25px 0px;
+}
+
+.sboxIcon i {
+    transition: all 0.5s ease 0s;
+}
+
+.sboxDesc {
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.sboxLink {
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.sboxLink a {
+    text-decoration: none;
+    color: rgb(255, 82, 0);
+    font-weight: 500;
+    transition: all 0.5s ease 0s;
+}
+
+.learnMore i {
+    font-size: 13px;
+    color: rgb(255, 82, 0);
+    transition: all 0.5s ease 0s;
+}
+
+.learnMore i:hover {
+    font-size: 13px;
+    color: white;
+}
+
+.singleBox:hover {
+    background: rgb(255, 82, 0);
+    color: white;
+    transition: all 0.5s ease 0s;
+}
+
+.singleBox:hover h2 {
+    color: white !important;
+}
+
+.singleBox:hover a {
+    color: white;
+}
+
+.singleBox:hover i {
+    color: white !important;
+}
+
+.teamContents {
+    overflow: hidden;
+}
+
+.teamImage {
+    width: 535px;
+    float: left;
+}
+
+.teamImage img {
+    max-width: 100%;
+}
+
+.teamDetails {
+    width: 535px;
+    float: right;
+}
+
+.titleDesc h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.titleDesc p {
+    color: rgb(101, 103, 101);
+    margin-bottom: 15px;
+    line-height: 24px;
+}
+
+.teamFacilities {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.teamFacilities ul {
+    margin: 0px;
+    padding: 0px;
+    width: 260px;
+    float: left;
+    list-style: none;
+}
+
+.teamFacilities ul li {
+    line-height: 40px;
+}
+
+.teamFacilities ul li a {
+    text-decoration: none;
+    color: rgb(16, 16, 16);
+    font-weight: 500;
+}
+
+.teamFacilities ul li a:hover {
+    color: rgb(251, 82, 0);
+    transition: all 0.3s ease 0s;
+}
+
+.teamContactBtn a {
+    text-decoration: none;
+    background: rgb(251, 82, 0);
+    color: white;
+    padding: 15px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: Oswald;
+    font-weight: 500;
+    display: block;
+    width: 119px;
+    text-align: center;
+}
+
+.teamContactBtn a:hover {
+    background: rgb(37, 37, 37);
+    transition: all 0.5s ease 0s;
+}
+
+#whyChooseUs {
+    background: linear-gradient(rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.75)) center center / cover no-repeat, url("mainImages/why-choose-us1.jpg");
+}
+
+.iconWrapper {
+    overflow: hidden;
+}
+
+.singleIcon {
+    width: 210px;
+    color: white;
+    text-align: center;
+    float: left;
+    margin-right: 100px;
+}
+
+.sIcon {
+    font-size: 44px;
+}
+
+.singleIcon h1 {
+    font-size: 43px;
+    font-weight: 800;
+    font-family: sans-serif;
+    margin: 10px 0px;
+}
+
+.singleIcon h3 {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+.singleIcon:last-child {
+    margin-right: 0px;
+}
+
+#blogPost {
+    background: rgb(245, 246, 246);
+}
+
+.blogUnderline {
+    content: "";
+    border: 1.5px solid rgb(251, 82, 0);
+    width: 55px;
+    margin: auto;
+    background: rgb(251, 82, 0);
+}
+
+.secTitle {
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 0px;
+}
+
+.secTitle h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.secTitle p {
+    padding-top: 10px;
+    width: 550px;
+    margin: auto;
+    line-height: 25px;
+    color: rgb(101, 101, 101);
+}
+
+.postWrapper {
+    overflow: hidden;
+}
+
+.singlePost {
+    width: 250px;
+    overflow: hidden;
+    float: left;
+}
+
+.singlePost img {
+    width: 100%;
+}
+
+.postImage {
+    margin-bottom: 15px;
+}
+
+.postWrapper {
+    overflow: hidden;
+}
+
+.singlePost {
+    width: 262px;
+    overflow: hidden;
+    float: left;
+    margin-right: 30px;
+}
+
+.singlePost:last-child {
+    margin-right: 0px;
+}
+
+.singlePost img {
+    width: 100%;
+}
+
+.postImage {
+    margin-bottom: 15px;
+}
+
+.postInfo h3 {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+.postInfo p {
+    margin-top: 10px;
+    line-height: 23px;
+    color: rgb(115, 117, 115);
+}
+
+section#price {
+    overflow: hidden;
+}
+
+.singleTable {
+    width: 298px;
+    overflow: hidden;
+    float: left;
+    padding: 30px 30px 0px;
+    margin-right: 30px;
+    box-shadow: black 0px 0px 27px -20px;
+}
+
+.singleTable:last-child {
+    margin-right: 0px;
+}
+
+.singleTable ul {
+    list-style: none;
+    margin-top: 20px;
+    line-height: 35px;
+}
+
+.singleTable h3 {
+    font-size: 26px;
+}
+
+.singleTable h1 {
+    font-size: 50px;
+    font-family: "Work Sans";
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.singleTable h1 span {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: -7px;
+}
+
+#tableGetStarted {
+    background: rgb(255, 82, 0);
+    color: white;
+    padding: 12px 35px;
+    font-size: 17px;
+    font-family: Oswald;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    letter-spacing: 0.5px;
+    margin: 25px 0px;
+    transition: all 0.3s ease 0s;
+}
+
+#tableGetStarted:hover {
+    background: rgb(37, 37, 37);
+    color: white;
+}
+
+.singleTable ul li {
+    color: rgb(93, 98, 108);
+}
+
+.singleTable ul li::before {
+    content: "✓ ";
+    color: rgb(251, 82, 0);
+    font-size: 14px;
+}
+
+.ideasLeftImage {
+    position: absolute;
+    background: url("mainImages/s02.jpg") center center / cover no-repeat;
+    width: 50%;
+    height: 100%;
+}
+
+section#ideas {
+    overflow: hidden;
+    position: relative;
+    padding: 0px;
+}
+
+.ideasRightContent {
+    width: 50%;
+    float: right;
+    overflow: hidden;
+    background: rgb(34, 34, 34);
+    color: white;
+    padding-bottom: 50px;
+}
+
+.rContentTitle {
+    padding: 70px 70px 35px;
+}
+
+.rContentTitle h2 {
+    font-size: 33px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.rContentTitle p {
+    line-height: 27px;
+}
+
+.rContentIcon {
+    padding: 0px 0px 0px 70px;
+}
+
+.riconSingle {
+    width: 267px;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 45px;
+}
+
+.rIcon {
+    width: 60px;
+    float: left;
+    overflow: hidden;
+    font-size: 45px;
+    color: rgb(255, 82, 0);
+}
+
+.rIconTitle {
+    width: 190px;
+    float: right;
+    overflow: hidden;
+    cursor: default;
+}
+
+.rIconTitle h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+.rIconTitle p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(221, 221, 221);
+    line-height: 1.5;
+}
+
+.rIconTitle:hover h2 {
+    color: rgb(255, 82, 0);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.teamPersons {
+    overflow: hidden;
+}
+
+.singlePerson {
+    width: 260px;
+    overflow: hidden;
+    float: left;
+    margin-right: 33px;
+}
+
+.singlePerson:last-child {
+    margin-right: 0px !important;
+}
+
+.singlePerson img {
+    width: 100%;
+}
+
+.personInfo {
+    padding: 17px;
+    text-align: center;
+    border-left: 1px solid rgb(237, 237, 237);
+    border-bottom: 0.5px solid rgb(237, 237, 237);
+    border-right: 0.5px solid rgb(237, 237, 237);
+}
+
+.personInfo h3 {
+    font-size: 20px;
+}
+
+.singlePerson p {
+    font-size: 13px;
+    color: rgb(126, 132, 131);
+    margin-top: 7px;
+}
+
+.teamPersons {
+    overflow: hidden;
+}
+
+.singlePerson {
+    width: 260px;
+    overflow: hidden;
+    float: left;
+    margin-right: 33px;
+}
+
+.singlePerson:last-child {
+    margin-right: 0px !important;
+}
+
+.singlePerson img {
+    width: 100%;
+    transition: transform 0.3s ease 0s;
+}
+
+.personInfo {
+    padding: 17px;
+    text-align: center;
+    border-left: 1px solid rgb(237, 237, 237);
+    border-bottom: 0.5px solid rgb(237, 237, 237);
+    border-right: 0.5px solid rgb(237, 237, 237);
+}
+
+.personInfo h3 {
+    font-size: 20px;
+}
+
+.singlePerson p {
+    font-size: 13px;
+    color: rgb(126, 132, 131);
+    margin-top: 7px;
+}
+
+.personImage {
+    height: 260px;
+    position: relative;
+    overflow: hidden;
+}
+
+.joinTeamBtn {
+    margin-top: 50px;
+    display: grid;
+    place-items: center;
+}
+
+.joinTeamBtn button {
+    padding: 15px;
+    width: 184px;
+    font-family: Oswald;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    background: rgb(37, 37, 37);
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 4px;
+}
+
+.joinTeamBtn button:hover {
+    background: rgb(255, 82, 0);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.socialIcons {
+    width: 144px;
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    transition: all 2s ease 0s !important;
+}
+
+.socialIcons a {
+    color: white;
+    padding: 5px;
+    border-radius: 100%;
+    overflow: hidden;
+    float: left;
+    display: grid;
+    text-decoration: none;
+    place-items: center;
+    margin: 3px;
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.socialIcons a:first-child {
+    background: rgb(59, 89, 152);
+    opacity: 0;
+}
+
+.socialIcons a:nth-child(2) {
+    background: rgb(0, 172, 238);
+    opacity: 0;
+}
+
+.socialIcons a:nth-child(3) {
+    background: rgb(235, 97, 31);
+    opacity: 0;
+}
+
+.socialIcons a:last-child {
+    background: rgb(14, 118, 168);
+    opacity: 0;
+}
+
+.socialIcons a:hover {
+    background: white;
+    color: rgb(37, 37, 37);
+}
+
+.singlePerson:hover a:first-child {
+    transform: translateY(25px);
+    opacity: 1;
+    transition: all 0.5s ease 0s;
+}
+
+.singlePerson:hover a:nth-child(2) {
+    transform: translateY(25px);
+    opacity: 1;
+    transition: all 0.4s ease 0s;
+}
+
+.singlePerson:hover a:nth-child(3) {
+    transform: translateY(25px);
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.singlePerson:hover a:last-child {
+    transform: translateY(25px);
+    opacity: 1;
+    transition: all 0.1s ease 0s;
+}
+
+.singlePerson:hover .personImage img {
+    transform: scale(1.05);
+}
+
+.singlePerson:hover {
+    cursor: pointer;
+}
+
+#projects {
+    background: rgb(245, 246, 246);
+}
+
+.projectsWrapper {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.singleProject {
+    width: 360px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.singleProject:last-child {
+    margin-right: 0px;
+}
+
+.singleProject img {
+    width: 100%;
+    height: 100%;
+}
+
+.projectInfo {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 0px 5px 0px 30px;
+    width: 325px;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.79));
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+.singleProject:hover .projectInfo {
+    padding: 60px 30px;
+    background: linear-gradient(transparent, black);
+}
+
+.projectInfo span {
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 2.2;
+}
+
+#learnMoreBtn {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    transform: translateX(-135px);
+}
+
+.projectMeta h1 {
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+}
+
+.singleProject:hover .projectMeta {
+    margin-bottom: 20px;
+}
+
+.projectMeta {
+    margin-bottom: 30px;
+    transition: all 0.3s ease 0s;
+}
+
+.singleProject:hover #learnMoreBtn {
+    transform: translate(0px);
+    transition: all 0.3s ease 0.2s;
+}
+
+#learnMoreBtn i {
+    color: white;
+    font-size: 11px;
+    margin-left: 8px;
+}
+
+.newsWrapper {
+    overflow: hidden;
+}
+
+.singleNews {
+    width: 350px;
+    margin-right: 30px;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.singleNews:last-child {
+    margin-right: 0px;
+}
+
+.newsWrapper {
+    overflow: hidden;
+}
+
+.singleNews {
+    width: 360px;
+    margin-right: 30px;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.singleNews:last-child {
+    margin-right: 0px;
+}
+
+.newsImage img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out 0s;
+}
+
+.newsMeta {
+    padding: 25px;
+    border-left: 1px solid rgb(239, 235, 235);
+    border-right: 1px solid rgb(239, 235, 235);
+    border-bottom: 1px solid rgb(239, 235, 235);
+}
+
+.newsCategory {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.newsCategory a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    margin-left: 35px;
+}
+
+.newsCategory span {
+    font-size: 14px;
+    color: rgb(119, 119, 119);
+}
+
+.newsTitle h2 a {
+    font-size: 20px;
+    color: rgb(34, 34, 34);
+    margin-bottom: 25px;
+    text-decoration: none;
+    display: block;
+}
+
+.newsTitle p {
+    color: rgb(119, 119, 119);
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+a#newsReadMore {
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(251, 82, 0);
+}
+
+a#newsReadMore i {
+    font-size: 11px;
+    margin-left: 8px;
+}
+
+.newsCategory::after {
+    width: 15px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background: rgb(255, 82, 0);
+    left: 95px;
+    top: 9px;
+}
+
+.singleNews:hover .newsImage img {
+    transform: scale(1.05);
+}
+
+.newsImage {
+    height: 241px;
+    position: relative;
+    overflow: hidden;
+}
+
+#footer {
+    background: rgb(26, 26, 26);
+    padding-top: 165px;
+}
+
+.copyrightContainer {
+    overflow: hidden;
+    color: rgb(171, 171, 166);
+    border-top: 1px solid rgb(49, 49, 49);
+}
+
+.copyrightContainer .container {
+    overflow: hidden;
+}
+
+.copyrightText {
+    width: 570px;
+    float: left;
+    padding: 30px 0px;
+    font-size: 15px;
+}
+
+.copyrightMenu {
+    width: 570px;
+    float: right;
+}
+
+.copyrightMenu ul {
+    list-style: none;
+    float: right;
+    overflow: hidden;
+}
+
+.copyrightMenu ul li {
+    float: left;
+}
+
+.copyrightMenu ul a {
+    text-decoration: none;
+    color: rgb(171, 171, 171);
+    padding: 30px 10px;
+    display: block;
+    font-size: 15px;
+    transition: all 0.3s ease 0s;
+}
+
+.copyrightMenu ul a:hover {
+    color: white;
+}
+
+.fboxWrapper {
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+
+.fbox {
+    overflow: hidden;
+    width: 266px;
+    float: left;
+    margin-right: 25px;
+}
+
+.fbox:last-child {
+    margin-right: 0px;
+}
+
+.fbox h3 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.fbox p {
+    color: rgb(171, 171, 171);
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.fIcons a {
+    color: black;
+    font-size: 15px;
+    transition: all 0.3s ease 0s;
+    margin-right: 15px;
+    float: left;
+    background: rgb(171, 171, 171);
+    width: 23px;
+    height: 23px;
+    border-radius: 5px;
+    display: grid;
+    place-content: center;
+    text-decoration: none;
+}
+
+.fIcons a:hover {
+    background: white;
+    color: black;
+}
+
+.fContactIcon {
+    color: rgb(255, 82, 0);
+    font-size: 15px;
+    float: left;
+}
+
+.fContact {
+    width: 249px;
+    margin-left: 30px;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 10px;
+    color: rgb(171, 171, 171);
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.fbox ul {
+    list-style: none;
+}
+
+.fbox ul li {
+    line-height: 33px;
+    border-bottom: 1px dashed rgb(48, 48, 48);
+    transition: all 0.2s ease 0s;
+}
+
+.fbox ul li a {
+    text-decoration: none;
+    color: rgb(171, 171, 171);
+    font-size: 15px;
+}
+
+.fbox ul li:hover a {
+    color: white;
+}
+
+.fbox ul li:last-child {
+    border-bottom: 0px;
+}
+
+.fRPost {
+    overflow: hidden;
+    display: block;
+    float: left;
+}
+
+.fRPostMeta {
+    width: 45px;
+    background: rgb(49, 49, 49);
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    float: left;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.fRPostMeta span:first-child {
+    font-size: 24px;
+    display: block;
+}
+
+.fRPostMeta span:nth-child(2) {
+    font-size: 9px;
+    line-height: 1.7;
+}
+
+.fRPostMeta span:last-child {
+    font-size: 9px;
+    display: block;
+    margin-bottom: 2px;
+}
+
+.fRPostTitle {
+    width: 191px;
+    float: right;
+}
+
+.fRPostTitle a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(171, 171, 171);
+    line-height: 1.5;
+    transition: all 0.3s ease 0s;
+}
+
+.fRPostTitle h4 {
+    margin-bottom: 8px;
+}
+
+.fRPostTitle h4 a:hover {
+    color: rgb(255, 82, 0);
+}
+
+.fRPostTitle span i {
+    margin-right: 5px;
+}
+
+.fRPostTitle span {
+    color: rgb(120, 120, 120);
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.subsBoxesWrapper {
+    overflow: hidden;
+    background: rgb(255, 82, 0);
+    border-radius: 3px;
+}
+
+.subsBoxesSingle {
+    padding: 34px 0px;
+    float: left;
+    width: 310px;
+    overflow: hidden;
+    margin-right: 30px;
+}
+
+.subsBoxesSingle h3 {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.subsInputBoxes input:first-child {
+    padding: 14px 50px 14px 20px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.subsInputBoxes input:first-child::placeholder {
+    font-family: "Work Sans";
+}
+
+.subsInputBoxes {
+    position: relative;
+}
+
+.subsInputBoxes input:last-child {
+    padding: 13.9px 28px;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    position: absolute;
+    right: 20px;
+    width: 100px;
+    background: black;
+    color: white;
+    font-family: "Work Sans";
+    letter-spacing: 1px;
+    font-size: 15px;
+    transition: all 0.2s ease 0s;
+    font-weight: 600;
+}
+
+.subsBoxesSingle p {
+    color: white;
+    line-height: 1.5;
+}
+
+.subsBoxesSingle p {
+    color: white;
+    line-height: 1.5;
+}
+
+.subsFollowIcon a {
+    width: 37px;
+    height: 37px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: grid;
+    line-height: 39px;
+    margin-right: 6px;
+    place-content: center;
+    text-decoration: none;
+    float: left;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+.subsFollowIcon a:hover {
+    background: white;
+    color: black;
+}
+
+.subsBoxesSingle:first-child {
+    padding-left: 42px;
+}
+
+.subsBoxesSingle:last-child {
+    margin-right: 0px;
+    margin-left: 50px;
+}
+
+section#subscribe {
+    position: relative;
+    margin-bottom: -160px;
+    margin-top: -110px;
+}
+
+.singleProject:nth-child(3) {
+    margin-right: 0px;
+}
+
+.subsInputBoxes input:last-child:hover {
+    background: rgb(26, 26, 26);
+    cursor: pointer;
+}
+
+ul.subMenu {
+    list-style: none;
+    width: 215px;
+    position: absolute;
+    background: white;
+    border: 1px solid rgb(237, 237, 237);
+    padding: 25px;
+    display: block;
+    transform: scaleY(0);
+    visibility: hidden;
+    transform-origin: center top;
+    transition: all 0.4s ease 0s;
+}
+
+.mainMenuItem li:hover ul.subMenu {
+    transform: scaleY(1);
+    visibility: visible;
+}
+
+ul.subMenu li {
+    float: none;
+}
+ul.subMenu li a {
+    padding: 7px;
+    font-family: "Work Sans";
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+    color: black !important;
+}
+
+ul.subMenu li a::before {
+    content: "";
+    width: 0px;
+    height: 2px;
+    background: rgb(255, 82, 0);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    transition: width 0.7s ease 0s;
+}
+
+ul.subMenu li:hover a::before {
+    width: 14px;
+}
